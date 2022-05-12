@@ -1,4 +1,12 @@
 console.log("Welcome to Spotify");
+// Init your Web SDK
+const appwrite = new Appwrite();
+
+appwrite
+    .setEndpoint('http://8080-appwrite-integrationfor-sg87m3ibl43.ws-us44.gitpod.io/v1') // Your Appwrite Endpoint
+    .setProject('627d287f0ce0ae9927c8') // Your project ID
+;
+
 
 // Initialize the Variables
 let songIndex = 0;
