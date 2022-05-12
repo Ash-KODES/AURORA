@@ -48,6 +48,7 @@ nav ul li{
    border-radius: 12px;
    padding: 34px;
    background-image: url('main-pic.jpg');
+   background-size: contain;
 }
 
 .bottom{
