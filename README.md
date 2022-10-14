@@ -1,4 +1,2 @@
 # ARORA
-A Music Player Made Using HTML,CSS, and Javascript.
-
-License-MIT
+A Music Player Made Using HTML,CSS, and Vanilla Javascript.
