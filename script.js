@@ -1,12 +1,4 @@
-console.log("Welcome to Spotify");
-// Init your Web SDK
-const appwrite = new Appwrite();
-//appwrite app made during hackathon
-appwrite
-    .setEndpoint('http://8080-appwrite-integrationfor-sg87m3ibl43.ws-us44.gitpod.io/v1') // Your Appwrite Endpoint
-    .setProject('627d287f0ce0ae9927c8')// project ID
-;
-
+console.log("Welcome to Aurora");
 
 // Initialize the Variables
 let songIndex = 0;
@@ -45,12 +37,12 @@ let songs = [
   },
   {
     songName: "TRACK6",
-    filePath: "songs/2.mp3",
+    filePath: "songs/6.mp3",
     coverPath: "covers/6.jpg",
   },
   {
     songName: "TRACK7",
-    filePath: "songs/2.mp3",
+    filePath: "songs/1.mp3",
     coverPath: "covers/7.jpg",
   },
   {
@@ -60,7 +52,7 @@ let songs = [
   },
   {
     songName: "TRACK9",
-    filePath: "songs/2.mp3",
+    filePath: "songs/3.mp3",
     coverPath: "covers/9.jpg",
   },
   {
